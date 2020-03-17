@@ -107,7 +107,7 @@ Role:
 Functions:
 - MQTT client
 - OVSDB client
-- Register AP routes
+- Register AP routes, register OSGWs
 - Translate metrics from Opensync 
     protobuf into CU internal format
 
@@ -248,7 +248,7 @@ RRM cell size (static)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:L
                   <y:Geometry height="67.59751546359212" width="187.1637551020408" x="1077.5701551626607" y="495.023149817888"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="177.19140625" x="4.986174426020398" xml:space="preserve" y="10.599538981796115">Stream Processor
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="177.19140625" x="4.986174426020398" xml:space="preserve" y="10.599538981796059">Stream Processor
 N instances
 RRM channel selection (static)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                   <y:Shape type="rectangle"/>
@@ -256,7 +256,6 @@ RRM channel selection (static)<y:LabelModel><y:SmartNodeLabelModel distance="4.0
               </data>
             </node>
             <node id="n0::n1::n6">
-              <data key="d5"/>
               <data key="d6">
                 <y:ShapeNode>
                   <y:Geometry height="364.9024594986128" width="254.95646441947542" x="1294.7339102647015" y="256.4751051907771"/>
@@ -290,7 +289,6 @@ Deployment tasks:
             </node>
             <node id="n0::n1::n7" yfiles.foldertype="group">
               <data key="d4" xml:space="preserve"/>
-              <data key="d5"/>
               <data key="d6">
                 <y:ProxyAutoBoundsNode>
                   <y:Realizers active="0">
@@ -389,7 +387,7 @@ Cloud metrics persistence<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></
                       <y:Geometry height="60.14556009070293" width="164.0" x="862.3867538021166" y="502.4751051907772"/>
                       <y:Fill color="#FFCC00" transparent="false"/>
                       <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="156.759765625" x="3.6201171875" xml:space="preserve" y="6.873561295351408">Stream Processor 
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="156.759765625" x="3.6201171875" xml:space="preserve" y="6.873561295351465">Stream Processor 
 N instances
 System events persistence<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                       <y:Shape type="rectangle"/>
@@ -403,16 +401,17 @@ System events persistence<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></
         <node id="n0::n2">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="250.3155384247449" width="332.837890625" x="2211.5990707381056" y="642.5656746171678"/>
+              <y:Geometry height="270.60057496107447" width="330.8010405505952" x="2213.6359208125104" y="622.2806380808382"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="230.125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="281.1015625" x="25.8681640625" xml:space="preserve" y="10.095269212372386">Cassandra DB cluster
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="244.2578125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="281.1015625" x="24.849739025297822" xml:space="preserve" y="13.171381230537236">Cassandra DB cluster
 External component
 - cluster of N
 
 Functions:
 - Stores Alarms, client info, client sessions,
-equipment status, network status
+equipment status, network status,
+equipment routes
 - Medium-term storage for metrics and events 
   (potentially. we will first try to store 
    them in the hierarchical time-series
@@ -563,10 +562,10 @@ Deployment tasks:
         <node id="n0::n9">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="1022.4966772775261" width="412.4862981156368" x="1748.255738914604" y="256.47510519077713"/>
+              <y:Geometry height="1071.2904138108597" width="419.61347311488794" x="1748.255738914604" y="256.4751051907772"/>
               <y:Fill color="#FFCC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="993.296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="383.294921875" x="14.5956881203183" xml:space="preserve" y="14.599901138763016">Scalable Service Container ( aka SSC )
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="1049.828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="383.294921875" x="18.159275619943855" xml:space="preserve" y="10.731144405429859">Scalable Service Container ( aka SSC )
 - N instances
 
 Role:
@@ -576,6 +575,7 @@ Role:
 - persists and provides access to
    the system events, equipment metrics,
    equipment status, network status,
+   equipment routes,
    alarms, and wireless client info
    via configured datastore layer
 - provides read-only access to 
@@ -592,6 +592,9 @@ Equipment Status Service
 Network Status Service
 - CRUD for network status
 - get network status
+Equipment Routing Service
+- register/unregister OSGW
+- register/unregister equipment route for the OSGW
 System Events Service 
 - CR for system events
 - get system events for AP or Customer in a given time frame
@@ -796,7 +799,7 @@ Deployment tasks:
               <y:Geometry height="1016.4322305162295" width="466.07191011235955" x="1181.6260191382066" y="1458.3639153380104"/>
               <y:Fill color="#FFCC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="979.1640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="391.05859375" x="37.50665818117977" xml:space="preserve" y="18.63408400811454">Provisioning Service ( aka PROV )
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="979.1640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="391.05859375" x="37.50665818117977" xml:space="preserve" y="18.63408400811477">Provisioning Service ( aka PROV )
 - N instances - but limited by the
    Postgres RDBMS limits on memory
    and the number of connections
@@ -870,7 +873,6 @@ Deployment tasks:
           </data>
         </node>
         <node id="n0::n12">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="330.3675283446712" width="330.54603174603153" x="878.4122737739731" y="858.3328103232159"/>
@@ -902,7 +904,6 @@ Deploymentr tasks:
           </data>
         </node>
         <node id="n0::n13">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="60.14556009070293" width="315.0" x="719.960605401451" y="-4.571803482851465"/>
@@ -917,7 +918,6 @@ Stores MQTT node data - inflight messages, etc.<y:LabelModel><y:SmartNodeLabelMo
           </data>
         </node>
         <node id="n0::n14">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="119.20087074829931" width="293.61790476190436" x="2157.3199864366347" y="-16.599458811649654"/>
@@ -935,7 +935,6 @@ to N days.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
           </data>
         </node>
         <node id="n0::n15">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="78.47307029478463" width="286.0" x="2235.0180160506056" y="941.7695207801871"/>
@@ -950,7 +949,6 @@ Stores per-node partition data<y:LabelModel><y:SmartNodeLabelModel distance="4.0
           </data>
         </node>
         <node id="n0::n16">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="73.38209523809519" width="285.4723446712014" x="2235.281843715005" y="2549.065654283588"/>
@@ -965,13 +963,12 @@ Stores per-node RDBMS data<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/><
           </data>
         </node>
         <node id="n0::n17">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="60.14556009070293" width="278.34497959183636" x="2238.8455262546877" y="1656.453307344813"/>
               <y:Fill color="#99CC00" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="255.783203125" x="11.280888233417954" xml:space="preserve" y="6.873561295351465">Shared Mapped Disk Volume
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="255.783203125" x="11.280888233418409" xml:space="preserve" y="6.873561295351465">Shared Mapped Disk Volume
 Used by all nodes in Job Scheduler cluster
 (preliminary info, may need to be adjusted)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
               <y:Shape type="rectangle"/>
@@ -1237,7 +1234,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e13" source="n0::n11" target="n0::n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1248,7 +1244,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e14" source="n0::n9" target="n0::n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1259,7 +1254,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e15" source="n0::n0::n0" target="n0::n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1270,7 +1264,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e16" source="n0::n9" target="n0::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1281,7 +1274,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e17" source="n0::n1::n7" target="n0::n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1292,7 +1284,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e18" source="n0::n9" target="n0::n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1303,7 +1294,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e19" source="n0::n6" target="n0::n13">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1314,7 +1304,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e20" source="n0::n0::n1" target="n0::n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1325,7 +1314,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e21" source="n0::n11" target="n0::n12">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1336,7 +1324,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e22" source="n0::n4" target="n0::n14">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1347,7 +1334,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e23" source="n0::n2" target="n0::n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1358,7 +1344,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e24" source="n0::n7" target="n0::n16">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1369,7 +1354,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="n0::e25" source="n0::n8" target="n0::n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1380,7 +1364,6 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="e8" source="n2" target="n0::n10::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

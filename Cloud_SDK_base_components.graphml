@@ -23,7 +23,7 @@
               <y:Geometry height="854.431640625" width="1468.5" x="315.0" y="69.333984375"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1468.5" x="0.0" xml:space="preserve" y="0.0">Cloud RDK</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1468.5" x="0.0" xml:space="preserve" y="0.0">Cloud SDK</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
@@ -348,8 +348,8 @@ cloud events, cloud metrics<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
               <y:Geometry height="115.0" width="745.0" x="330.0" y="752.5"/>
               <y:Fill color="#99CC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.9296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="454.5859375" x="145.20703125" xml:space="preserve" y="6.03515625">Kubernetes (AWS/Azure/On-premises VMs)
-All components of the Cloud RDK are deployed inside the kubernetes cluster.
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.9296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="453.4609375" x="145.76953125" xml:space="preserve" y="6.03515625">Kubernetes (AWS/Azure/On-premises VMs)
+All components of the Cloud SDK are deployed inside the kubernetes cluster.
 
 Container Network Interface - Calico
 Persistent volumes - Gluster
