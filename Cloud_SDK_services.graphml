@@ -20,14 +20,14 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="2771.132236710252" width="2259.1023621921872" x="304.162109375" y="-101.6650390625"/>
+              <y:Geometry height="2771.132236710252" width="2249.0511982759886" x="314.2132732911986" y="-101.6650390625"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="2259.1023621921872" x="0.0" xml:space="preserve" y="0.0">Cloud SDK</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="2249.0511982759886" x="0.0" xml:space="preserve" y="0.0">Cloud SDK</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="14" leftF="14.446289062499886" right="4" rightF="3.827510204081591" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="4" leftF="4.395125146301325" right="4" rightF="3.827510204081591" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="275.0" y="45.0"/>
@@ -667,14 +667,14 @@ Deployment tasks:
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="1416.4397885886806" width="470.33420821629215" x="333.6083984374999" y="1238.0274090590715"/>
+                  <y:Geometry height="1416.4397885886806" width="745.3971175912922" x="344.4462890624999" y="1238.0274090590715"/>
                   <y:Fill color="#CAECFF84" transparent="false"/>
                   <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="470.33420821629215" x="0.0" xml:space="preserve" y="0.0">Northbound interfaces - portals and external systems</y:NodeLabel>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="745.3971175912922" x="0.0" xml:space="preserve" y="0.0">Northbound interfaces - portals and external systems</y:NodeLabel>
                   <y:Shape type="roundrectangle"/>
                   <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
                   <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="11" leftF="10.837890625" right="0" rightF="0.0" top="2" topF="1.6422352059923924"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="34" rightF="34.38394307116096" top="2" topF="1.6422352059923924"/>
                 </y:GroupNode>
                 <y:GroupNode>
                   <y:Geometry height="50.0" width="50.0" x="1206.0" y="785.0"/>
@@ -693,7 +693,7 @@ Deployment tasks:
             <node id="n0::n10::n0">
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="699.7596116653034" width="412.24500672986915" x="359.4462890624999" y="1276.3356598900639"/>
+                  <y:Geometry height="699.7596116653034" width="412.24500672986915" x="628.214456852762" y="1276.3356598900639"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="696.5078125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="383.294921875" x="14.475042427434573" xml:space="preserve" y="1.6258995826517548">Portal Service
@@ -737,7 +737,7 @@ Functions:
   for AP/Location/Customer 
 - provision OUI manufacturer table
 
-Exposes APIs:
+Exposes as REST APIs:
 - all of the functions above
 - for all APIs that return potentially long 
    lists - use common pagination framework
@@ -784,7 +784,7 @@ Deployment tasks:
             <node id="n0::n10::n2">
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="254.10973297663622" width="297.9325842696628" x="359.4462890624999" y="2014.250198325476"/>
+                  <y:Geometry height="254.10973297663622" width="297.9325842696628" x="499.71971527972835" y="2014.250198325476"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="244.2578125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="270.109375" x="13.911604634831406" xml:space="preserve" y="4.925960238318112">Webtoken Auth Service
@@ -800,6 +800,53 @@ Exposes APIs:
 - refreshToken - token refresh 
 - validateToken - check if the token is
    correctly signed and not expired
+ 
+Deployment tasks:
+- create container in k8s
+- create scripts to scale up/down<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n10::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="208.40674157303351" width="228.33126591760288" x="369.8831909351592" y="1276.3356598900639"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="187.7265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.0859375" x="15.122664208801439" xml:space="preserve" y="10.340089536516643">Static Portal Container
+- N instances (nginx)
+
+Role:
+- delivers static content 
+of the portal app - html, 
+javascript, css, etc. to 
+the browser
+
+ 
+Deployment tasks:
+- create container in k8s
+- create scripts to scale up/down<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n10::n4">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="248.02595355805215" width="228.33126591760288" x="369.8831909351592" y="1556.1591693318662"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="201.859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.0859375" x="15.122664208801439" xml:space="preserve" y="23.083289279026076">GraphQL Container
+- N instances (node.js 
+   + Apollo GraphQL 
+   server + our 
+   extensions)
+
+Role:
+- translates portal app calls
+ into the REST API calls for 
+the cloud backend
  
 Deployment tasks:
 - create container in k8s
@@ -1171,10 +1218,10 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n2" target="n0::n10::n0">
+    <edge id="e2" source="n2" target="n0::n10::n4">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="-35.009952489081684" ty="20.90091429966492"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -1402,6 +1449,27 @@ Used by all nodes in Job Scheduler cluster
       </data>
     </edge>
     <edge id="e9" source="n1" target="n0::n0::n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n2" target="n0::n10::n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::n10::e0" source="n0::n10::n4" target="n0::n10::n0">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>

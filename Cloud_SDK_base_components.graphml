@@ -20,14 +20,14 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="854.431640625" width="1471.337890625" x="312.162109375" y="69.333984375"/>
+              <y:Geometry height="921.666015625" width="1471.337890625" x="312.162109375" y="69.333984375"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1471.337890625" x="0.0" xml:space="preserve" y="0.0">Cloud SDK</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="30" bottomF="30.265625" left="3" leftF="2.837890625" right="0" rightF="0.0" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="2" bottomF="2.0" left="3" leftF="2.837890625" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="275.0" y="45.0"/>
@@ -362,7 +362,7 @@ cloud events, cloud metrics<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         <node id="n0::n5">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="115.0" width="745.0" x="330.0" y="752.5"/>
+              <y:Geometry height="115.0" width="745.0" x="330.0" y="811.9169921875"/>
               <y:Fill color="#99CC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.9296875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="453.4609375" x="145.76953125" xml:space="preserve" y="6.03515625">Kubernetes (AWS/Azure/On-premises VMs)
@@ -447,14 +447,14 @@ N instances<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="113.666015625" width="519.5" x="1249.0" y="764.833984375"/>
+                  <y:Geometry height="209.166015625" width="659.5" x="1109.0" y="764.833984375"/>
                   <y:Fill color="#CAECFF84" transparent="false"/>
                   <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="519.5" x="0.0" xml:space="preserve" y="0.0">Northbound interfaces - portals and external systems</y:NodeLabel>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="659.5" x="0.0" xml:space="preserve" y="0.0">Northbound interfaces - portals and external systems</y:NodeLabel>
                   <y:Shape type="roundrectangle"/>
                   <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
                   <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="44" leftF="43.5" right="43" rightF="42.5" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="8" bottomF="8.0" left="13" leftF="12.5" right="43" rightF="42.5" top="0" topF="0.0"/>
                 </y:GroupNode>
                 <y:GroupNode>
                   <y:Geometry height="50.0" width="50.0" x="1206.0" y="785.0"/>
@@ -485,13 +485,39 @@ N instances<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
             <node id="n0::n11::n1">
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="62.0" width="189.0" x="1522.0" y="801.5"/>
+                  <y:Geometry height="62.0" width="189.0" x="1522.0" y="889.0"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="60.53125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="174.935546875" x="7.0322265625" xml:space="preserve" y="0.734375">Integration Service
 
 Service Adoption APIs
 APIs for full NAAS integration<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n11::n2">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="62.0" width="145.0" x="1307.5" y="889.0"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="113.318359375" x="15.8408203125" xml:space="preserve" y="7.80078125">GraphQL container
+Node.js + Apollo
+N instances<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n11::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="62.0" width="145.0" x="1136.5" y="889.0"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.5546875" x="19.72265625" xml:space="preserve" y="7.80078125">Static Resource 
+Container (nginx)
+N instances<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                   <y:Shape type="rectangle"/>
                 </y:ShapeNode>
               </data>
@@ -514,7 +540,7 @@ APIs for full NAAS integration<y:LabelModel><y:SmartNodeLabelModel distance="4.0
     <node id="n2">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="197.0" x="1281.5" y="981.0"/>
+          <y:Geometry height="52.0" width="197.0" x="1281.5" y="1036.0"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="135.466796875" x="30.7666015625" xml:space="preserve" y="16.93359375">Portal Web Application<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -525,7 +551,7 @@ APIs for full NAAS integration<y:LabelModel><y:SmartNodeLabelModel distance="4.0
     <node id="n3">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="52.0" width="158.0" x="1537.5" y="981.0"/>
+          <y:Geometry height="52.0" width="158.0" x="1537.5" y="1036.0"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.630859375" x="27.6845703125" xml:space="preserve" y="16.93359375">External Systems<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -704,10 +730,10 @@ APIs for full NAAS integration<y:LabelModel><y:SmartNodeLabelModel distance="4.0
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n2" target="n0::n11::n0">
+    <edge id="e2" source="n2" target="n0::n11::n2">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="20.5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -725,7 +751,6 @@ APIs for full NAAS integration<y:LabelModel><y:SmartNodeLabelModel distance="4.0
       </data>
     </edge>
     <edge id="e4" source="n1" target="n0::n0::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -736,6 +761,27 @@ APIs for full NAAS integration<y:LabelModel><y:SmartNodeLabelModel distance="4.0
       </data>
     </edge>
     <edge id="e5" source="n1" target="n0::n0::n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n2" target="n0::n11::n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::n11::e0" source="n0::n11::n2" target="n0::n11::n0">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
