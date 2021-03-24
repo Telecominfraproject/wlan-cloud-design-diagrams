@@ -20,14 +20,14 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="2771.132236710252" width="2249.0511982759886" x="314.2132732911986" y="-101.6650390625"/>
+              <y:Geometry height="2927.7772350302976" width="2249.0511982759886" x="314.21327329119856" y="-258.3100373825456"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="2249.0511982759886" x="0.0" xml:space="preserve" y="0.0">Cloud SDK</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="4" leftF="4.395125146301325" right="4" rightF="3.827510204081591" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="15" leftF="15.233015771301325" right="4" rightF="3.827510204081591" top="109" topF="108.80643172401915"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="275.0" y="45.0"/>
@@ -49,14 +49,14 @@
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="1044.7889873996282" width="318.89160156250006" x="333.60839843749994" y="169.49971988209484"/>
+                  <y:Geometry height="1090.5379287014134" width="322.4272690638168" x="344.44628906249994" y="98.16240996647355"/>
                   <y:Fill color="#CAECFF84" transparent="false"/>
                   <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="318.89160156250006" x="0.0" xml:space="preserve" y="0.0">Southbound interfaces to/from APs</y:NodeLabel>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="322.4272690638168" x="0.0" xml:space="preserve" y="0.0">Southbound interfaces to/from APs</y:NodeLabel>
                   <y:Shape type="roundrectangle"/>
                   <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
                   <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="3" leftF="2.8916015625" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="6" leftF="6.4272690638165955" right="0" rightF="0.0" top="0" topF="0.0"/>
                 </y:GroupNode>
                 <y:GroupNode>
                   <y:Geometry height="50.0" width="50.0" x="245.0" y="380.0"/>
@@ -75,7 +75,7 @@
             <node id="n0::n0::n0">
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="585.6849362599207" width="286.0000000000001" x="351.49999999999994" y="206.16573550709484"/>
+                  <y:Geometry height="585.6849362599207" width="286.0000000000001" x="365.8735581263166" y="134.82842559147355"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="583.4453125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.48828125" x="11.255859375000057" xml:space="preserve" y="1.1198118799603662">OpenSync Gateway
@@ -126,7 +126,7 @@ Deployment tasks:
             <node id="n0::n0::n1">
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="208.40674157303363" width="286.0" x="351.49999999999994" y="990.8819657086894"/>
+                  <y:Geometry height="208.40674157303363" width="286.0" x="365.8735581263166" y="965.2935970948536"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="187.7265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="217.275390625" x="34.3623046875" xml:space="preserve" y="10.34008953651687">AP firmware broker
@@ -149,280 +149,34 @@ Deployment tasks:
             <node id="n0::n0::n2">
               <data key="d6">
                 <y:ShapeNode>
-                  <y:Geometry height="133.40419475655426" width="165.47451749473373" x="411.7627412526331" y="821.8506717670156"/>
+                  <y:Geometry height="190.88363382802845" width="275.99999999999994" x="365.87355812631654" y="757.5516605132074"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="117.0625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.853515625" x="7.310500934866866" xml:space="preserve" y="8.17084737827713">AP SSH Gateway
-N instances
-(POST-MVP)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="173.59375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="238.591796875" x="18.7041015625" xml:space="preserve" y="8.644941914014225">AP Port Forwarder service
+- 1 instance
 
-Accepts and mediates 
-ssh sessions from AP,
-triggered by a command 
-sent to AP<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:Shape type="rectangle"/>
-                </y:ShapeNode>
-              </data>
-            </node>
-          </graph>
-        </node>
-        <node id="n0::n1" yfiles.foldertype="group">
-          <data key="d4" xml:space="preserve"/>
-          <data key="d6">
-            <y:ProxyAutoBoundsNode>
-              <y:Realizers active="0">
-                <y:GroupNode>
-                  <y:Geometry height="561.9084317916968" width="738.0427781853709" x="831.3564803646166" y="183.14307394077713"/>
-                  <y:Fill color="#CAECFF84" transparent="false"/>
-                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="738.0427781853709" x="0.0" xml:space="preserve" y="0.0">Stream Processors - base features</y:NodeLabel>
-                  <y:Shape type="roundrectangle"/>
-                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="1" leftF="1.0302734375" right="5" rightF="4.708883865810549" top="0" topF="0.0"/>
-                </y:GroupNode>
-                <y:GroupNode>
-                  <y:Geometry height="50.0" width="50.0" x="555.0" y="316.0"/>
-                  <y:Fill color="#CAECFF84" transparent="false"/>
-                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="50.0" x="0.0" xml:space="preserve" y="0.0">2</y:NodeLabel>
-                  <y:Shape type="roundrectangle"/>
-                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                </y:GroupNode>
-              </y:Realizers>
-            </y:ProxyAutoBoundsNode>
-          </data>
-          <graph edgedefault="directed" id="n0::n1:">
-            <node id="n0::n1::n0">
-              <data key="d6">
-                <y:ShapeNode>
-                  <y:Geometry height="67.59751546359212" width="187.1637551020408" x="1077.5701551626607" y="571.2385700433849"/>
-                  <y:Fill color="#FFCC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.470703125" x="18.846525988520398" xml:space="preserve" y="10.599538981796059">Stream Processor
-N instances
-AP client session handler<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:Shape type="rectangle"/>
-                </y:ShapeNode>
-              </data>
-            </node>
-            <node id="n0::n1::n1">
-              <data key="d6">
-                <y:ShapeNode>
-                  <y:Geometry height="67.59751546359212" width="187.1637551020408" x="1077.5701551626607" y="647.4539902688819"/>
-                  <y:Fill color="#FFCC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="135.09765625" x="26.033049426020398" xml:space="preserve" y="10.599538981796059">Stream Processor
-N instances
-AP connectivity alarms<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:Shape type="rectangle"/>
-                </y:ShapeNode>
-              </data>
-            </node>
-            <node id="n0::n1::n2">
-              <data key="d6">
-                <y:ShapeNode>
-                  <y:Geometry height="67.59751546359212" width="187.1637551020408" x="1077.5701551626607" y="333.47510519077713"/>
-                  <y:Fill color="#FFCC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="125.21875" x="30.972502551020398" xml:space="preserve" y="10.599538981796059">Stream Processor
-N instances
-device fingerprinting<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:Shape type="rectangle"/>
-                </y:ShapeNode>
-              </data>
-            </node>
-            <node id="n0::n1::n3">
-              <data key="d6">
-                <y:ShapeNode>
-                  <y:Geometry height="67.59751546359212" width="187.1637551020408" x="1077.5701551626607" y="256.47510519077713"/>
-                  <y:Fill color="#FFCC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="104.435546875" x="41.3641041135204" xml:space="preserve" y="10.599538981796059">Stream Processor
-N instances
-AP Key analytics<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:Shape type="rectangle"/>
-                </y:ShapeNode>
-              </data>
-            </node>
-            <node id="n0::n1::n4">
-              <data key="d6">
-                <y:ShapeNode>
-                  <y:Geometry height="67.59751546359212" width="187.1637551020408" x="1077.5701551626607" y="420.47510519077713"/>
-                  <y:Fill color="#FFCC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.962890625" x="32.1004322385204" xml:space="preserve" y="10.599538981796059">Stream Processor
-N instances
-RRM cell size (static)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:Shape type="rectangle"/>
-                </y:ShapeNode>
-              </data>
-            </node>
-            <node id="n0::n1::n5">
-              <data key="d6">
-                <y:ShapeNode>
-                  <y:Geometry height="67.59751546359212" width="187.1637551020408" x="1077.5701551626607" y="495.023149817888"/>
-                  <y:Fill color="#FFCC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="177.19140625" x="4.986174426020398" xml:space="preserve" y="10.599538981796059">Stream Processor
-N instances
-RRM channel selection (static)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                  <y:Shape type="rectangle"/>
-                </y:ShapeNode>
-              </data>
-            </node>
-            <node id="n0::n1::n6">
-              <data key="d6">
-                <y:ShapeNode>
-                  <y:Geometry height="364.9024594986128" width="254.95646441947542" x="1294.7339102647015" y="256.4751051907771"/>
-                  <y:Fill color="#FFCC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="314.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="238.650390625" x="8.153036897237598" xml:space="preserve" y="4.0">Common notes on SPs
-- for the first release deploy all stream
-   processor in one JVM process,
-   adjust after perf testing 
-
-SPs use SSC to 
-- read required provisioning 
-   data from the in-memory cache
-- write updates to equipment
-   status and network status
-- raise/clear alarms
-- write equipment metrics
-   and system events
-   (only if those are stored in cassandra, 
-    but we'll try to use hierarchical 
-    time-series db first)
-- write wireless client info
-- get manufacturer details by OUI
+Functions:
+- mediates SSH sessions between APs 
+  and tech support personnel to traverse
+  NATs and firewalls
 
 Deployment tasks:
-- create containers in k8s
-- create scripts to scale up/down</y:NodeLabel>
+- create container in k8s
+- expose a range of externally 
+   accessible ports for SSH sessions<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                   <y:Shape type="rectangle"/>
                 </y:ShapeNode>
               </data>
             </node>
-            <node id="n0::n1::n7" yfiles.foldertype="group">
-              <data key="d4" xml:space="preserve"/>
-              <data key="d6">
-                <y:ProxyAutoBoundsNode>
-                  <y:Realizers active="0">
-                    <y:GroupNode>
-                      <y:Geometry height="510.24241616669684" width="195.47451749473362" x="847.3867538021166" y="219.80908956577713"/>
-                      <y:Fill color="#F5F5F5" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="195.47451749473362" x="0.0" xml:space="preserve" y="0.0">Persistence Processors</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                    <y:GroupNode>
-                      <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
-                      <y:Fill color="#F5F5F5" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="63.75830078125" x="-6.879150390625" xml:space="preserve" y="0.0">Folder 5</y:NodeLabel>
-                      <y:Shape type="roundrectangle"/>
-                      <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-                      <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
-                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-                    </y:GroupNode>
-                  </y:Realizers>
-                </y:ProxyAutoBoundsNode>
-              </data>
-              <graph edgedefault="directed" id="n0::n1::n7:">
-                <node id="n0::n1::n7::n0">
-                  <data key="d6">
-                    <y:ShapeNode>
-                      <y:Geometry height="60.14556009070293" width="164.0" x="862.3867538021166" y="654.905945641771"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="104.435546875" x="29.7822265625" xml:space="preserve" y="6.873561295351465">Stream Processor
-N instances
-AP metrics rollup<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-                <node id="n0::n1::n7::n1">
-                  <data key="d6">
-                    <y:ShapeNode>
-                      <y:Geometry height="60.14556009070293" width="165.47451749473373" x="862.3867538021166" y="256.47510519077713"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="135.830078125" x="14.822219684866923" xml:space="preserve" y="6.873561295351465">Stream Processor 
-N instances
-AP metrics persistence<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-                <node id="n0::n1::n7::n2">
-                  <data key="d6">
-                    <y:ShapeNode>
-                      <y:Geometry height="60.14556009070293" width="164.0" x="862.3867538021166" y="420.47510519077713"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.716796875" x="8.6416015625" xml:space="preserve" y="6.873561295351465">Stream Processor
-N instances
-service adoption metrics<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-                <node id="n0::n1::n7::n3">
-                  <data key="d6">
-                    <y:ShapeNode>
-                      <y:Geometry height="60.14556009070293" width="164.0" x="862.3867538021166" y="578.6905254162741"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="130.4453125" x="16.77734375" xml:space="preserve" y="6.873561295351465">Stream Processor 
-N instances
-AP events persistence<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-                <node id="n0::n1::n7::n4">
-                  <data key="d6">
-                    <y:ShapeNode>
-                      <y:Geometry height="60.14556009070293" width="165.47451749473373" x="862.3867538021166" y="338.47510519077713"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.060546875" x="5.206985309866923" xml:space="preserve" y="6.873561295351465">Stream Processor 
-N instances
-Cloud metrics persistence<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-                <node id="n0::n1::n7::n5">
-                  <data key="d6">
-                    <y:ShapeNode>
-                      <y:Geometry height="60.14556009070293" width="164.0" x="862.3867538021166" y="502.4751051907772"/>
-                      <y:Fill color="#FFCC00" transparent="false"/>
-                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="156.759765625" x="3.6201171875" xml:space="preserve" y="6.873561295351465">Stream Processor 
-N instances
-System events persistence<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-                      <y:Shape type="rectangle"/>
-                    </y:ShapeNode>
-                  </data>
-                </node>
-              </graph>
-            </node>
           </graph>
         </node>
-        <node id="n0::n2">
+        <node id="n0::n1">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="270.60057496107447" width="330.8010405505952" x="2213.6359208125104" y="622.2806380808382"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="244.2578125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="281.1015625" x="24.849739025297822" xml:space="preserve" y="13.171381230537236">Cassandra DB cluster
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="187.7265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="281.1015625" x="24.849739025297822" xml:space="preserve" y="41.437006230537236">Cassandra DB cluster
 External component
 - cluster of N
 
@@ -431,10 +185,6 @@ Functions:
 equipment status, network status,
 equipment routes
 - Medium-term storage for metrics and events 
-  (potentially. we will first try to store 
-   them in the hierarchical time-series
-   datastore, managed by stream 
-   processors)
 
 Deployment tasks:
 - create containers in k8s
@@ -443,28 +193,7 @@ Deployment tasks:
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n3">
-          <data key="d6">
-            <y:ShapeNode>
-              <y:Geometry height="195.3330078125" width="209.5" x="1849.7488879724224" y="1868.9135266898752"/>
-              <y:Fill color="#CCCCFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="159.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.0859375" x="5.70703125" xml:space="preserve" y="17.93603515625">Hazelcast In-Memory data store
-External component
--  cluster of N
-
-Functions:
-- Data caching
-- inter-module coordination
-
-Deployment tasks:
-- create containers in k8s
-- create scripts to scale up/down<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-              <y:Shape type="rectangle"/>
-            </y:ShapeNode>
-          </data>
-        </node>
-        <node id="n0::n4">
+        <node id="n0::n2">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="216.0" width="276.0" x="1816.4988879724224" y="-64.9990234375"/>
@@ -488,7 +217,7 @@ Deployment tasks:
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n5">
+        <node id="n0::n3">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="157.44569288389516" width="286.0" x="2213.6359208125104" y="256.47510519077713"/>
@@ -507,10 +236,10 @@ K8S log aggregation service - Log4Stash<y:LabelModel><y:SmartNodeLabelModel dist
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n6">
+        <node id="n0::n4">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="181.0" width="315.0" x="337.0" y="-64.9990234375"/>
+              <y:Geometry height="181.0" width="315.0" x="351.37355812631665" y="-112.83759003352645"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="159.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="283.41015625" x="15.794921875" xml:space="preserve" y="10.76953125">Mosquitto MQTT Broker
@@ -528,7 +257,7 @@ Deployment tasks:
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n7">
+        <node id="n0::n5">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="251.54681647940083" width="238.52434456928836" x="2258.7558437659613" y="2248.994649467727"/>
@@ -555,35 +284,13 @@ Deployment tasks:
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n8">
+        <node id="n0::n6">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="195.3330078125" width="286.0" x="2235.0180160506056" y="1421.5618397373578"/>
-              <y:Fill color="#CCCCFF" transparent="false"/>
-              <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="173.59375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="228.419921875" x="28.7900390625" xml:space="preserve" y="10.86962890625">Quartz Job Scheduler Cluster
-External component
-- cluster of N
-
-Functions:
-- handles scheduling of recurring jobs
-
-Exposes APIs: TBD
-
-Deployment tasks:
-- create containers in k8s
-- create scripts to scale up/down<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-              <y:Shape type="rectangle"/>
-            </y:ShapeNode>
-          </data>
-        </node>
-        <node id="n0::n9">
-          <data key="d6">
-            <y:ShapeNode>
-              <y:Geometry height="1071.2904138108597" width="419.61347311488794" x="1748.255738914604" y="256.4751051907772"/>
+              <y:Geometry height="694.7414354038556" width="419.61347311488794" x="1721.2755940443203" y="523.9304543396773"/>
               <y:Fill color="#FFCC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="1049.828125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="383.294921875" x="18.159275619943855" xml:space="preserve" y="10.731144405429859">Scalable Service Container ( aka SSC )
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="654.109375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="383.294921875" x="18.159275619943855" xml:space="preserve" y="20.316030201927788">Scalable Service Container ( aka SSC )
 - N instances
 
 Role:
@@ -596,20 +303,15 @@ Role:
    equipment routes,
    alarms, and wireless client info
    via configured datastore layer
-- provides read-only access to 
-   the in-memory cache of the 
-   provisioning model 
 
 Functions:
 Alarm Service 
 - get Alarms for AP/Location/Customer
 - CRUD for Alarms
 Equipment Status Service 
-- CRUD for equipment status
-- get equipment statuses for AP/Location/Customer
+- CRUD for status
+- get statuses for AP/Location/Customer/
 Network Status Service
-- CRUD for network status
-- get network status
 Equipment Routing Service
 - register/unregister OSGW
 - register/unregister equipment route for the OSGW
@@ -618,36 +320,13 @@ System Events Service
 - get system events for AP or Customer in a given time frame
 Equipment Metrics Service 
 - CR for equipment metrics
-- get metrics for AP in a given time frame (raw or rolled up)
+- get metrics for AP in a given time frame 
 
 Wireless Clients Service
 - CRUD for client info records
 - get clients (basic info, fingerprint, stats - from client sessions) 
   for AP/Location/Customer 
 
-Provides read-only access to in-memory cache of the following:
-
-Customer Service
-- get customer record by id
-Location Service
-- get location info - hierarchy
-- get equipment ids for a location 
-   and its children
-Equipment Inventory Service
-- get equipment record by id
-- get a batch of equipment records for a 
-   given set of ids
-Equipment Configuration Service
-- list ids of APs attached to AP profile
-- list AP profiles attached to Service profile
-- list ids of APs attached to Service profile
-- retrieve full AP config - with all associated profiles
-Firmware Service
-- list all known FW images
-- list ids of APs that are using selected FW image
-OUI Lookup Service
-- get manufacturer by OUI
-- get manufacturers by a batch of OUIs
 
 Exposes APIs:
 - all of the functions above
@@ -661,7 +340,7 @@ Deployment tasks:
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n10" yfiles.foldertype="group">
+        <node id="n0::n7" yfiles.foldertype="group">
           <data key="d4" xml:space="preserve"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
@@ -689,8 +368,8 @@ Deployment tasks:
               </y:Realizers>
             </y:ProxyAutoBoundsNode>
           </data>
-          <graph edgedefault="directed" id="n0::n10:">
-            <node id="n0::n10::n0">
+          <graph edgedefault="directed" id="n0::n7:">
+            <node id="n0::n7::n0">
               <data key="d6">
                 <y:ShapeNode>
                   <y:Geometry height="699.7596116653034" width="412.24500672986915" x="628.214456852762" y="1276.3356598900639"/>
@@ -737,7 +416,7 @@ Functions:
   for AP/Location/Customer 
 - provision OUI manufacturer table
 
-Exposes as REST APIs:
+Exposes APIs:
 - all of the functions above
 - for all APIs that return potentially long 
    lists - use common pagination framework
@@ -749,7 +428,7 @@ Deployment tasks:
                 </y:ShapeNode>
               </data>
             </node>
-            <node id="n0::n10::n1">
+            <node id="n0::n7::n1">
               <data key="d6">
                 <y:ShapeNode>
                   <y:Geometry height="332.95233957553114" width="429.49631759129215" x="359.4462890624999" y="2306.5148580722207"/>
@@ -781,7 +460,7 @@ Deployment tasks:
                 </y:ShapeNode>
               </data>
             </node>
-            <node id="n0::n10::n2">
+            <node id="n0::n7::n2">
               <data key="d6">
                 <y:ShapeNode>
                   <y:Geometry height="254.10973297663622" width="297.9325842696628" x="499.71971527972835" y="2014.250198325476"/>
@@ -808,13 +487,13 @@ Deployment tasks:
                 </y:ShapeNode>
               </data>
             </node>
-            <node id="n0::n10::n3">
+            <node id="n0::n7::n3">
               <data key="d6">
                 <y:ShapeNode>
                   <y:Geometry height="208.40674157303351" width="228.33126591760288" x="369.8831909351592" y="1276.3356598900639"/>
                   <y:Fill color="#FFCC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="187.7265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.0859375" x="15.122664208801439" xml:space="preserve" y="10.340089536516643">Static Portal Container
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="187.7265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.0859375" x="15.122664208801439" xml:space="preserve" y="10.34008953651687">Static Portal Container
 - N instances (nginx)
 
 Role:
@@ -831,7 +510,7 @@ Deployment tasks:
                 </y:ShapeNode>
               </data>
             </node>
-            <node id="n0::n10::n4">
+            <node id="n0::n7::n4">
               <data key="d6">
                 <y:ShapeNode>
                   <y:Geometry height="248.02595355805215" width="228.33126591760288" x="369.8831909351592" y="1556.1591693318662"/>
@@ -857,14 +536,14 @@ Deployment tasks:
             </node>
           </graph>
         </node>
-        <node id="n0::n11">
+        <node id="n0::n8">
           <data key="d4" xml:space="preserve"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="1016.4322305162295" width="466.07191011235955" x="1181.6260191382066" y="1458.3639153380104"/>
               <y:Fill color="#FFCC00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="979.1640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="391.05859375" x="37.50665818117977" xml:space="preserve" y="18.63408400811477">Provisioning Service ( aka PROV )
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="950.8984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="391.05859375" x="37.50665818117977" xml:space="preserve" y="32.76689650811477">Provisioning Service ( aka PROV )
 - N instances - but limited by the
    Postgres RDBMS limits on memory
    and the number of connections
@@ -873,8 +552,6 @@ Role:
 - implements business logic in services
 - persists provisioning model 
    via configured datastore layer
-- invalidates corresponding in-memory
-   cache on provisioning changes
 - maintains integrity of provisioning model
 
 Functions:
@@ -937,26 +614,20 @@ Deployment tasks:
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n12">
+        <node id="n0::n9">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="330.3675283446712" width="330.54603174603153" x="878.4122737739731" y="858.3328103232159"/>
+              <y:Geometry height="241.21574529503778" width="330.54603174603153" x="878.4122737739731" y="947.4845933728493"/>
               <y:Fill color="#99CC00" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="300.7890625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="301.896484375" x="14.324773685515765" xml:space="preserve" y="14.789232922335714">Shared Mapped Disk Volume
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="215.9921875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="301.896484375" x="14.324773685515765" xml:space="preserve" y="12.611778897518889">Shared Mapped Disk Volume
 
 Role:
 - provide shared file system to store and
    retrieve the following:
    - AP firmware images
-   - AP and Cloud metrics from a hierarchical 
-      time-series datastore
-   - metric rollups from a hierarchical 
-      time-series datastore
-   - AP and System events from a hierarchical 
-      time-series datastore
-   - Service adoption metrics from a
-      hierarchical time-series datastore
+   - AP Captive Portal files - logos, 
+      text blocks, username/passwords
 
 Deploymentr tasks:
 - configure GlusterFS distributed filesystem cluster
@@ -968,10 +639,10 @@ Deploymentr tasks:
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n13">
+        <node id="n0::n10">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="60.14556009070293" width="315.0" x="719.960605401451" y="-4.571803482851465"/>
+              <y:Geometry height="60.14556009070293" width="315.0" x="734.3341635277676" y="-52.41037007887792"/>
               <y:Fill color="#99CC00" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="60.53125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="288.6953125" x="13.15234375" xml:space="preserve" y="-0.19284495464853535">Non-Shared Mapped Disk Volume
@@ -982,7 +653,7 @@ Stores MQTT node data - inflight messages, etc.<y:LabelModel><y:SmartNodeLabelMo
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n14">
+        <node id="n0::n11">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="119.20087074829931" width="293.61790476190436" x="2157.3199864366347" y="-16.599458811649654"/>
@@ -999,7 +670,7 @@ to N days.<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n15">
+        <node id="n0::n12">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="78.47307029478463" width="286.0" x="2235.0180160506056" y="941.7695207801871"/>
@@ -1013,7 +684,7 @@ Stores per-node partition data<y:LabelModel><y:SmartNodeLabelModel distance="4.0
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n16">
+        <node id="n0::n13">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="73.38209523809519" width="285.4723446712014" x="2235.281843715005" y="2549.065654283588"/>
@@ -1027,18 +698,134 @@ Stores per-node RDBMS data<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/><
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n0::n17">
+        <node id="n0::n14" yfiles.foldertype="group">
+          <data key="d4" xml:space="preserve"/>
           <data key="d6">
-            <y:ShapeNode>
-              <y:Geometry height="60.14556009070293" width="278.34497959183636" x="2238.8455262546877" y="1656.453307344813"/>
-              <y:Fill color="#99CC00" transparent="false"/>
-              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="255.783203125" x="11.280888233418409" xml:space="preserve" y="6.873561295351465">Shared Mapped Disk Volume
-Used by all nodes in Job Scheduler cluster
-(preliminary info, may need to be adjusted)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-              <y:Shape type="rectangle"/>
-            </y:ShapeNode>
+            <y:ProxyAutoBoundsNode>
+              <y:Realizers active="0">
+                <y:GroupNode>
+                  <y:Geometry height="345.87885141239974" width="639.5012981201382" x="966.708938244552" y="196.09693198237858"/>
+                  <y:Fill color="#CAECFF84" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="639.5012981201382" x="0.0" xml:space="preserve" y="0.0">Stream Processors - base features</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+                <y:GroupNode>
+                  <y:Geometry height="50.0" width="50.0" x="555.0" y="316.0"/>
+                  <y:Fill color="#CAECFF84" transparent="false"/>
+                  <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.666015625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="50.0" x="0.0" xml:space="preserve" y="0.0">2</y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                  <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+                  <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                </y:GroupNode>
+              </y:Realizers>
+            </y:ProxyAutoBoundsNode>
           </data>
+          <graph edgedefault="directed" id="n0::n14:">
+            <node id="n0::n14::n0">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="294.2128357873998" width="254.95646441947542" x="1336.2537719452148" y="232.76294760737858"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="272.5234375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="229.908203125" x="12.524130647237598" xml:space="preserve" y="4.0">Common notes on SPs
+- for the first release deploy all stream
+   processor in one JVM process,
+   adjust after perf testing 
+
+SPs use SSC to 
+- read required provisioning 
+   data from the in-memory cache
+- write updates to equipment
+   status and network status
+- raise/clear alarms
+- write equipment metrics
+   and system events   
+- write wireless client info
+- get manufacturer details by OUI
+
+Deployment tasks:
+- create containers in k8s
+- create scripts to scale up/down</y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n14::n1">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="35.80260290397371" width="168.99523363940125" x="1115.8802526376014" y="242.82922591311484"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.9453125" x="6.5249605697006245" xml:space="preserve" y="8.834895201986853">AdoptionMetricsProcessor<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n14::n2">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="35.80260290397371" width="226.52888493775845" x="1087.1134269884228" y="298.59549924774586"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="210.953125" x="7.787879968879224" xml:space="preserve" y="8.834895201986853">ClientBlockListChangedPushTrigger<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n14::n3">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="35.80260290397371" width="187.16375510204034" x="981.708938244552" y="425.3406288504373"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.15625" x="14.00375255102017" xml:space="preserve" y="8.834895201986853">EmailNotificationProcessor<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n14::n4">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="35.80260290397371" width="187.1637551020408" x="1126.4785568241402" y="481.10690218506835"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="175.005859375" x="6.078947863520398" xml:space="preserve" y="8.834895201986853">EquipmentConfigPushTrigger<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n14::n5">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="35.80260290397371" width="122.15815856055485" x="1191.484153365626" y="425.3406288504373"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="106.955078125" x="7.601540217777483" xml:space="preserve" y="8.834895201986853">EquipmentAlarms
+<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+            <node id="n0::n14::n6">
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="51.01518583740312" width="281.0" x="1032.6423119261813" y="354.3617725823769"/>
+                  <y:Fill color="#FFCC00" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="259.158203125" x="10.9208984375" xml:space="preserve" y="9.374780418701562">CustomerPortalDashboardPartialAggregator
+CustomerPortalDashboardAggregator
+<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="rectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
+          </graph>
         </node>
       </graph>
     </node>
@@ -1075,13 +862,13 @@ Used by all nodes in Job Scheduler cluster
         </y:ShapeNode>
       </data>
     </node>
-    <edge id="n0::e0" source="n0::n1" target="n0::n4">
+    <edge id="n0::e0" source="n0::n14" target="n0::n2">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="34.44764857339146" sy="-26.893973798425733" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="125.64864513304497" y="-38.917987289468215">
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="106.07278699387757" y="-19.849451632473233">
             <y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
@@ -1094,7 +881,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e1" source="n0::n9" target="n0::n2">
+    <edge id="n0::e1" source="n0::n6" target="n0::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1104,17 +891,17 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e2" source="n0::n1" target="n0::n9">
+    <edge id="n0::e2" source="n0::n14" target="n0::n6">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="39.13984768126693" sy="109.17980032996206" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e3" source="n0::n11" target="n0::n7">
+    <edge id="n0::e3" source="n0::n8" target="n0::n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1124,51 +911,17 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e4" source="n0::n8" target="n0::n8">
+    <edge id="n0::e4" source="n0::n0::n0" target="n0::n4">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="111.5" sy="9.33349609375" tx="0.0" ty="0.0">
-            <y:Point x="2538.4150197959243" y="1503.0771465315993"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e5" source="n0::n8" target="n0::n11">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e6" source="n0::n8" target="n0::n9">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e7" source="n0::n0::n0" target="n0::n6">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="489.64045351473925" y="135.01892063492065"/>
-          </y:Path>
+          <y:Path sx="-19.233104611577403" sy="-292.6519730865133" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e8" source="n0::n0::n1" target="n0::n11">
+    <edge id="n0::e5" source="n0::n0::n1" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1178,7 +931,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e9" source="n0::n10::n0" target="n0::n11">
+    <edge id="n0::e6" source="n0::n7::n0" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1188,7 +941,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e10" source="n0::n10::n0" target="n0::n9">
+    <edge id="n0::e7" source="n0::n7::n0" target="n0::n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1198,7 +951,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e0" source="n1" target="n0::n6">
+    <edge id="e0" source="n1" target="n0::n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1218,7 +971,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n2" target="n0::n10::n4">
+    <edge id="e2" source="n2" target="n0::n7::n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-35.009952489081684" ty="20.90091429966492"/>
@@ -1228,7 +981,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n3" target="n0::n10::n1">
+    <edge id="e3" source="n3" target="n0::n7::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1238,7 +991,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n2" target="n0::n10::n2">
+    <edge id="e4" source="n2" target="n0::n7::n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1248,7 +1001,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n3" target="n0::n10::n2">
+    <edge id="e5" source="n3" target="n0::n7::n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1258,7 +1011,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e11" source="n0::n10::n1" target="n0::n11">
+    <edge id="n0::e8" source="n0::n7::n1" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1268,7 +1021,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e12" source="n0::n10::n2" target="n0::n11">
+    <edge id="n0::e9" source="n0::n7::n2" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1288,7 +1041,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e7" source="n3" target="n0::n10::n0">
+    <edge id="e7" source="n3" target="n0::n7::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1298,7 +1051,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e13" source="n0::n11" target="n0::n3">
+    <edge id="n0::e10" source="n0::n0::n0" target="n0::n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1308,7 +1061,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e14" source="n0::n9" target="n0::n3">
+    <edge id="n0::e11" source="n0::n6" target="n0::n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1318,7 +1071,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e15" source="n0::n0::n0" target="n0::n9">
+    <edge id="n0::e12" source="n0::n4" target="n0::n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1328,7 +1081,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e16" source="n0::n9" target="n0::n4">
+    <edge id="n0::e13" source="n0::n0::n1" target="n0::n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1338,7 +1091,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e17" source="n0::n1::n7" target="n0::n12">
+    <edge id="n0::e14" source="n0::n8" target="n0::n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1348,7 +1101,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e18" source="n0::n9" target="n0::n12">
+    <edge id="n0::e15" source="n0::n2" target="n0::n11">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1358,7 +1111,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e19" source="n0::n6" target="n0::n13">
+    <edge id="n0::e16" source="n0::n1" target="n0::n12">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1368,7 +1121,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e20" source="n0::n0::n1" target="n0::n12">
+    <edge id="n0::e17" source="n0::n5" target="n0::n13">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1378,7 +1131,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e21" source="n0::n11" target="n0::n12">
+    <edge id="e8" source="n2" target="n0::n7::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1388,57 +1141,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e22" source="n0::n4" target="n0::n14">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e23" source="n0::n2" target="n0::n15">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e24" source="n0::n7" target="n0::n16">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e25" source="n0::n8" target="n0::n17">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e8" source="n2" target="n0::n10::n1">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e26" source="n0::n9" target="n0::n11">
+    <edge id="n0::e18" source="n0::n6" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1458,8 +1161,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n2" target="n0::n10::n3">
-      <data key="d9"/>
+    <edge id="e10" source="n2" target="n0::n7::n3">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1469,8 +1171,7 @@ Used by all nodes in Job Scheduler cluster
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::n10::e0" source="n0::n10::n4" target="n0::n10::n0">
-      <data key="d9"/>
+    <edge id="n0::n7::e0" source="n0::n7::n4" target="n0::n7::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
